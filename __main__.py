@@ -13,7 +13,7 @@ if choice == "1":
     pdf = input("Enter PDF file path:")
     docs = input("Enter output Docx file path:")
     pdf_to_docx.pdf_to_docx(pdf, docs)
-    print(f"Conversion Complete: ", pdf_to_docx.pdf_tpo_docx(pdf, docs))
+    print(f"Conversion Complete: ", pdf_to_docx.pdf_to_docx(pdf, docs))
 elif choice == "2":
     docx = input("Enter Docx file path:")
     pdf = input("Enter output PDF file path:")
